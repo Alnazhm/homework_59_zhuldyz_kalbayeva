@@ -30,7 +30,8 @@ class TaskForm(forms.ModelForm):
         fields = ('summary', 'description', 'status', 'type')
 
 
-
+class SearchForm(forms.Form):
+    search = forms.CharField(max_length=100, required=False, label='Найти')
 
 
 
