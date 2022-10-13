@@ -1,13 +1,15 @@
 [
 {
   "model": "todolist.tasks",
-  "pk": 8,
+  "pk": 1,
   "fields": {
-    "summary": "task5",
-    "description": "task5",
+    "summary": "task3",
+    "description": "sdsf",
     "status": 1,
-    "created_at": "2022-10-07T13:08:28.011Z",
-    "updated_at": "2022-10-10T19:06:07.263Z",
+    "project": 1,
+    "created_at": "2022-10-13T18:38:28.127Z",
+    "updated_at": "2022-10-13T18:38:28.128Z",
+    "is_deleted": false,
     "type": [
       1
     ]
@@ -15,13 +17,31 @@
 },
 {
   "model": "todolist.tasks",
-  "pk": 9,
+  "pk": 2,
   "fields": {
     "summary": "task2",
-    "description": "",
+    "description": "task2",
+    "status": 1,
+    "project": 2,
+    "created_at": "2022-10-13T20:41:54.046Z",
+    "updated_at": "2022-10-13T20:41:54.046Z",
+    "is_deleted": false,
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 3,
+  "fields": {
+    "summary": "task4",
+    "description": "task4",
     "status": 2,
-    "created_at": "2022-10-07T13:08:46.907Z",
-    "updated_at": "2022-10-09T15:47:02.879Z",
+    "project": 3,
+    "created_at": "2022-10-13T20:42:23.609Z",
+    "updated_at": "2022-10-13T20:42:23.609Z",
+    "is_deleted": false,
     "type": [
       2
     ]
@@ -29,13 +49,15 @@
 },
 {
   "model": "todolist.tasks",
-  "pk": 10,
+  "pk": 4,
   "fields": {
-    "summary": "task3",
-    "description": "",
-    "status": 3,
-    "created_at": "2022-10-07T13:09:01.800Z",
-    "updated_at": "2022-10-07T13:09:01.800Z",
+    "summary": "task6",
+    "description": "task6",
+    "status": 2,
+    "project": 6,
+    "created_at": "2022-10-13T20:42:58.182Z",
+    "updated_at": "2022-10-13T20:42:58.182Z",
+    "is_deleted": false,
     "type": [
       3
     ]
@@ -43,55 +65,15 @@
 },
 {
   "model": "todolist.tasks",
-  "pk": 11,
-  "fields": {
-    "summary": "task6",
-    "description": "",
-    "status": 1,
-    "created_at": "2022-10-07T13:09:16.052Z",
-    "updated_at": "2022-10-07T13:09:16.053Z",
-    "type": [
-      1
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 12,
-  "fields": {
-    "summary": "task7",
-    "description": "",
-    "status": 2,
-    "created_at": "2022-10-07T13:09:30.751Z",
-    "updated_at": "2022-10-07T13:09:30.751Z",
-    "type": [
-      2
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 13,
+  "pk": 5,
   "fields": {
     "summary": "task8",
-    "description": "",
-    "status": 3,
-    "created_at": "2022-10-07T13:09:43.695Z",
-    "updated_at": "2022-10-07T13:09:43.695Z",
-    "type": [
-      2
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 14,
-  "fields": {
-    "summary": "task11",
-    "description": "",
+    "description": "cwc",
     "status": 1,
-    "created_at": "2022-10-09T16:40:58.825Z",
-    "updated_at": "2022-10-10T19:06:28.319Z",
+    "project": 5,
+    "created_at": "2022-10-13T20:45:01.843Z",
+    "updated_at": "2022-10-13T20:45:01.843Z",
+    "is_deleted": false,
     "type": [
       1
     ]
@@ -99,97 +81,15 @@
 },
 {
   "model": "todolist.tasks",
-  "pk": 15,
+  "pk": 6,
   "fields": {
-    "summary": "task12",
-    "description": "",
+    "summary": "task10",
+    "description": "ascac",
     "status": 1,
-    "created_at": "2022-10-09T16:43:33.354Z",
-    "updated_at": "2022-10-10T19:06:49.178Z",
-    "type": [
-      1
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 16,
-  "fields": {
-    "summary": "acaca",
-    "description": "sdcdsc",
-    "status": 1,
-    "created_at": "2022-10-09T17:01:33.191Z",
-    "updated_at": "2022-10-09T17:01:33.191Z",
-    "type": [
-      1
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 17,
-  "fields": {
-    "summary": "Task1 with bug",
-    "description": "",
-    "status": 1,
-    "created_at": "2022-10-10T18:19:52.817Z",
-    "updated_at": "2022-10-10T19:07:10.469Z",
-    "type": [
-      1
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 18,
-  "fields": {
-    "summary": "Task2 with bug",
-    "description": "",
-    "status": 3,
-    "created_at": "2022-10-10T18:20:25.893Z",
-    "updated_at": "2022-10-10T19:07:27.536Z",
-    "type": [
-      1
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 19,
-  "fields": {
-    "summary": "task100",
-    "description": "task100",
-    "status": 1,
-    "created_at": "2022-10-10T18:32:41.487Z",
-    "updated_at": "2022-10-10T18:32:41.487Z",
-    "type": [
-      1
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 20,
-  "fields": {
-    "summary": "task101",
-    "description": "task101",
-    "status": 2,
-    "created_at": "2022-10-10T18:33:02.317Z",
-    "updated_at": "2022-10-10T18:33:02.317Z",
-    "type": [
-      2
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 21,
-  "fields": {
-    "summary": "Task3 with bug",
-    "description": "",
-    "status": 1,
-    "created_at": "2022-10-11T13:06:42.325Z",
-    "updated_at": "2022-10-11T13:07:09.608Z",
+    "project": 9,
+    "created_at": "2022-10-13T20:45:30.731Z",
+    "updated_at": "2022-10-13T20:45:30.731Z",
+    "is_deleted": false,
     "type": [
       3
     ]
@@ -200,8 +100,8 @@
   "pk": 1,
   "fields": {
     "name": "New",
-    "created_at": "2022-10-06T18:38:36.399Z",
-    "updated_at": "2022-10-06T18:38:36.399Z"
+    "created_at": "2022-10-13T18:23:13.415Z",
+    "updated_at": "2022-10-13T18:25:01.438Z"
   }
 },
 {
@@ -209,8 +109,8 @@
   "pk": 2,
   "fields": {
     "name": "In Progress",
-    "created_at": "2022-10-06T18:38:48.005Z",
-    "updated_at": "2022-10-06T18:38:48.005Z"
+    "created_at": "2022-10-13T18:23:25.431Z",
+    "updated_at": "2022-10-13T18:23:25.431Z"
   }
 },
 {
@@ -218,35 +118,134 @@
   "pk": 3,
   "fields": {
     "name": "Done",
-    "created_at": "2022-10-06T18:38:53.032Z",
-    "updated_at": "2022-10-06T18:38:53.033Z"
+    "created_at": "2022-10-13T18:23:30.159Z",
+    "updated_at": "2022-10-13T18:23:30.159Z"
   }
 },
 {
   "model": "todolist.type",
   "pk": 1,
   "fields": {
-    "name": "Task",
-    "created_at": "2022-10-06T18:37:30.141Z",
-    "updated_at": "2022-10-06T18:37:30.141Z"
+    "name": "Bug",
+    "created_at": "2022-10-13T18:24:00.858Z",
+    "updated_at": "2022-10-13T18:24:00.858Z"
   }
 },
 {
   "model": "todolist.type",
   "pk": 2,
   "fields": {
-    "name": "Enhancement",
-    "created_at": "2022-10-06T18:37:53.001Z",
-    "updated_at": "2022-10-06T18:37:53.001Z"
+    "name": "Task",
+    "created_at": "2022-10-13T18:24:07.361Z",
+    "updated_at": "2022-10-13T18:24:07.361Z"
   }
 },
 {
   "model": "todolist.type",
   "pk": 3,
   "fields": {
-    "name": "Bug",
-    "created_at": "2022-10-06T18:38:06.450Z",
-    "updated_at": "2022-10-06T18:38:06.450Z"
+    "name": "Enhancement",
+    "created_at": "2022-10-13T18:24:16.958Z",
+    "updated_at": "2022-10-13T18:24:16.959Z"
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 1,
+  "fields": {
+    "name": "project1",
+    "description": "project1",
+    "start_date": "2022-01-01",
+    "end_date": "2022-03-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 2,
+  "fields": {
+    "name": "fecee",
+    "description": "cece",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 3,
+  "fields": {
+    "name": "project3",
+    "description": "project3",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 4,
+  "fields": {
+    "name": "sss",
+    "description": "s",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 5,
+  "fields": {
+    "name": "aasdad",
+    "description": "sacasca",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 6,
+  "fields": {
+    "name": "project5",
+    "description": "project5",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 7,
+  "fields": {
+    "name": "Project7",
+    "description": "wcwcw",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 8,
+  "fields": {
+    "name": "task9",
+    "description": "qdqwd",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
+  }
+},
+{
+  "model": "todolist.project",
+  "pk": 9,
+  "fields": {
+    "name": "project7",
+    "description": "svcsc",
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "is_deleted": false
   }
 },
 {
@@ -254,7 +253,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$390000$QOHz2MamtBVRy4gxWnsN4i$NuKk/Vyykr3t52I5LKhIoCYH5kE8pA342GuB3S4LkKA=",
-    "last_login": "2022-10-06T18:35:45.403Z",
+    "last_login": "2022-10-12T19:59:36.957Z",
     "is_superuser": true,
     "username": "root",
     "first_name": "",
