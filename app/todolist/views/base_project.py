@@ -1,13 +1,14 @@
 from urllib.parse import urlencode
-from todolist.models import Tasks
+from todolist.models import Project
 from django.views.generic import ListView
 from django.db.models import Q
 from todolist.forms import SearchForm
-class IndexView(ListView):
-    template_name = 'index_tasks.html'
-    model = Tasks
-    context_object_name = 'todo_tasks'
-    paginate_by = 10
+
+class ProjectIndexView(ListView):
+    template_name = 'index.html'
+    model = Project
+    context_object_name = 'projects'
+    paginate_by = 3
     paginate_orphans = 1
 
     def get(self, request, *args, **kwargs):
@@ -26,23 +27,14 @@ class IndexView(ListView):
     def get_queryset(self):
         queryset = super().get_queryset().all()
         if self.search_value:
-            query = Q(summary__icontains=self.search_value) | Q(summary__icontains=self.search_value)
+            query = Q(name__icontains=self.search_value) | Q(name__icontains=self.search_value)
             print(query.__dict__)
             queryset = queryset.filter(query)
         return queryset
 
     def get_context_data(self, *, object_list=None, **kwargs):
-        context = super(IndexView, self).get_context_data(object_list=object_list, **kwargs)
+        context = super(ProjectIndexView, self).get_context_data(object_list=object_list, **kwargs)
         context['form'] = self.form
         if self.search_value:
             context['query'] = urlencode({'search': self.search_value})
         return context
-
-
-
-
-
-
-
-
-
